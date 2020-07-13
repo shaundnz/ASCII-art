@@ -1,6 +1,7 @@
 package ascii_art;
 
 public class Pixel {
+    private static final String charString = "`^\",:;Il!i~+_-?][}{1)(|\\/tfjrxnuvczXYUJCLQ0OZmwqpdbkhao*#MW&8%B@$";
     private final double red;
     private final double green;
     private final double blue;
@@ -24,15 +25,21 @@ public class Pixel {
         return blue;
     }
 
+    public char getCharToPrint(){
+        return charString.charAt(averageToMapIndex());
+    }
+
     // Calculate average brightness of pixel
-    public double averageBrightness(){
+    private double averageBrightness(){
         return (red + green + blue) / 3;
     }
 
     // Index of which character from list to print, determined by brightness of pixel
-    public int averageToMapIndex(){
+    private int averageToMapIndex(){
         double average = averageBrightness();
         return (int) Math.round((average/255) * 64);
     }
+
+
 
 }

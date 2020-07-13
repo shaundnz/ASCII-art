@@ -16,6 +16,7 @@ public class ProcessImage extends SwingWorker<Void, Void> {
     @Override
     protected Void doInBackground() {
         this.myImage = new MyImage(image, scaleFactor);
+        myImage.printToConsole();
         return null;
     }
 }

@@ -26,7 +26,6 @@ public class ImageFileChooser extends JPanel{
 
         headingLabel = new JLabel("Select an image file", SwingConstants.CENTER);
         add(headingLabel);
-
         add(new BottomPanel());
         add(new ScaleFactorPanel());
     }
@@ -48,8 +47,6 @@ public class ImageFileChooser extends JPanel{
     private class ScaleFactorPanel extends JPanel{
         private ScaleFactorPanel(){
             setLayout(new FlowLayout());
-
-
 
             scaleFactorSlider = new JSlider();
             scaleFactorSlider.setValue(100);
