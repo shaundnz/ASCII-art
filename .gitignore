@@ -1,0 +1,20 @@
+# Default ignored files
+/shelf/
+/.idea/workspace.xml
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+/misc.xml
+/modules.xml
+/vcs.xml
+/uiDesigner.xml
+/../out/production/RobertHeatonProgrammingProjects/ascii_art/Pixel.class
+/../out/production/RobertHeatonProgrammingProjects/ascii_art/MyImage.class
+/../out/production/RobertHeatonProgrammingProjects/Main.class
+/../out/production/RobertHeatonProgrammingProjects/ascii_art/ImageFileChooser.class
+/../out/production/RobertHeatonProgrammingProjects/ascii_art/ImageFileChooser$BottomPanel.class
+/../out/production/RobertHeatonProgrammingProjects/ascii_art/AsciiArt.class
+/out/
+/.idea/
